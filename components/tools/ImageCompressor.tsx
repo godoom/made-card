@@ -79,7 +79,7 @@ export function ImageCompressor() {
       }
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // Empty deps - only run on mount/unmount
+  }, []);
 
   // Calculate preview file size and generate resized previews when quality/dimensions change for all images
   useEffect(() => {
